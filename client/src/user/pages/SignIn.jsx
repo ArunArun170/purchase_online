@@ -11,24 +11,63 @@ function SignIn() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+
     if (!email.trim() || !password.trim() || loading) return;
 
     setLoading(true);
-    try {
-      const response = await fetch("https://purchase-online.onrender.com/api/auth/signin", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: email.trim(), password }),
-      });
-      const data = await response.json();
-      if (!response.ok) throw new Error(data.message || "Unable to sign in");
 
-      localStorage.setItem("anon_token", data.token);
-      localStorage.setItem("anon_user", JSON.stringify(data.user));
-      window.dispatchEvent(new Event("authUpdated"));
-      navigate("/checkout");
+    try {
+      const response = await fetch(
+        "https://purchase-online.onrender.com/api/auth/signin",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            email: email.trim(),
+            password,
+          }),
+        }
+      );
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(
+          data.message || "Unable to sign in"
+        );
+      }
+
+      localStorage.setItem(
+        "anon_token",
+        data.token
+      );
+
+      localStorage.setItem(
+        "anon_user",
+        JSON.stringify(data.user)
+      );
+
+      window.dispatchEvent(
+        new Event("authUpdated")
+      );
+
+      // Admin and customer login flows are separated
+      if (data.user?.role === "admin") {
+        navigate("/Admin", {
+          replace: true,
+        });
+      } else {
+        navigate("/checkout", {
+          replace: true,
+        });
+      }
+
     } catch (error) {
-      window.alert(error.message || "Unable to sign in");
+      window.alert(
+        error.message || "Unable to sign in"
+      );
     } finally {
       setLoading(false);
     }
@@ -42,6 +81,7 @@ function SignIn() {
         {/* =========================
             TITLE
             ========================= */}
+
         <div className="text-center mb-8">
 
           <h1 className="text-2xl md:text-3xl font-black text-[#ad2d47] mb-2 uppercase tracking-tight">
@@ -58,6 +98,7 @@ function SignIn() {
         {/* =========================
             FORM CARD
             ========================= */}
+
         <div className="bg-white rounded-xl p-6 md:p-8 border border-[#e5e2e1] shadow-sm">
 
           <form
@@ -66,6 +107,7 @@ function SignIn() {
           >
 
             {/* EMAIL */}
+
             <div>
 
               <label className="text-[11px] font-bold text-[#5e5e5e] uppercase mb-1 block tracking-wider">
@@ -95,6 +137,7 @@ function SignIn() {
 
 
             {/* PASSWORD */}
+
             <div>
 
               <div className="flex justify-between items-center mb-1">
@@ -107,7 +150,9 @@ function SignIn() {
                   type="button"
                   className="text-[11px] font-bold text-[#ad2d47] hover:underline"
                   onClick={() =>
-                    alert("Password reset will be connected later.")
+                    alert(
+                      "Password reset will be connected later."
+                    )
                   }
                 >
                   Forgot Password?
@@ -146,11 +191,13 @@ function SignIn() {
                   }
                   className="absolute right-3 top-1/2 -translate-y-1/2 text-[#5e5e5e] hover:text-[#ad2d47]"
                 >
+
                   <span className="material-symbols-outlined text-[20px]">
                     {showPassword
                       ? "visibility_off"
                       : "visibility"}
                   </span>
+
                 </button>
 
               </div>
@@ -159,6 +206,7 @@ function SignIn() {
 
 
             {/* SIGN IN */}
+
             <button
               type="submit"
               disabled={loading}
@@ -191,16 +239,21 @@ function SignIn() {
           {/* =========================
               SOCIAL LOGIN
               ========================= */}
+
           <div className="relative my-8">
 
             <div className="absolute inset-0 flex items-center">
+
               <div className="w-full border-t border-[#e5e2e1]"></div>
+
             </div>
 
             <div className="relative flex justify-center text-xs uppercase">
+
               <span className="bg-white px-2 text-[#5e5e5e] font-bold tracking-wider">
                 Or continue with
               </span>
+
             </div>
 
           </div>
@@ -211,7 +264,9 @@ function SignIn() {
             <button
               type="button"
               onClick={() =>
-                alert("Google OAuth will be connected later.")
+                alert(
+                  "Google OAuth will be connected later."
+                )
               }
               className="flex items-center justify-center gap-2 py-3 border border-[#dfbfc1] rounded-lg hover:bg-[#fcf9f8] transition-colors text-xs font-bold text-[#5e5e5e]"
             >
@@ -221,7 +276,9 @@ function SignIn() {
             <button
               type="button"
               onClick={() =>
-                alert("Apple OAuth will be connected later.")
+                alert(
+                  "Apple OAuth will be connected later."
+                )
               }
               className="flex items-center justify-center gap-2 py-3 border border-[#dfbfc1] rounded-lg hover:bg-[#fcf9f8] transition-colors text-xs font-bold text-[#5e5e5e]"
             >
@@ -234,6 +291,7 @@ function SignIn() {
           {/* =========================
               SIGN UP
               ========================= */}
+
           <div className="mt-8 text-center border-t border-[#e5e2e1] pt-6">
 
             <p className="text-sm text-[#5e5e5e]">

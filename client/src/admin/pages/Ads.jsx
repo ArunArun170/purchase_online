@@ -91,7 +91,7 @@ function Ads({ initialAds = {} }) {
 
   const saveAdsToMongoDB = async (nextAds) => {
     const response = await fetch(
-      "http://localhost:5000/api/ads",
+      "https://purchase-online.onrender.com/api/ads",
       {
         method: "PUT",
         headers: {

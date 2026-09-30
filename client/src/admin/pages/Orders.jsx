@@ -25,7 +25,7 @@ function Orders() {
     const loadOrders = async () => {
       try {
         const response =
-          await fetch("http://localhost:5000/api/orders", { headers: { Authorization: `Bearer ${localStorage.getItem("anon_token") || ""}` } });
+          await fetch("https://purchase-online.onrender.com/api/orders", { headers: { Authorization: `Bearer ${localStorage.getItem("anon_token") || ""}` } });
 
         if (!response.ok) {
           throw new Error("Failed to load orders");
@@ -247,7 +247,7 @@ function Orders() {
     const deleteOrderFromDatabase = async () => {
       try {
         const response = await fetch(
-          `http://localhost:5000/api/orders/${encodeURIComponent(deleteId)}`,
+          `https://purchase-online.onrender.com/api/orders/${encodeURIComponent(deleteId)}`,
           { method: "DELETE", headers: { Authorization: `Bearer ${localStorage.getItem("anon_token") || ""}` } }
         );
 

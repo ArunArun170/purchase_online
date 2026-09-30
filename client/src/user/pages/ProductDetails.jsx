@@ -25,7 +25,7 @@ function ProductDetails() {
         // LOAD PRODUCT FROM BACKEND
         // =========================
         const response = await fetch(
-          `http://localhost:5000/api/products/${productId}`
+          `https://purchase-online.onrender.com/api/products/${productId}`
         );
 
         if (!response.ok) {

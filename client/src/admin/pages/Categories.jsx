@@ -1,10 +1,10 @@
 import { useEffect, useMemo, useState } from "react";
 
 const CATEGORY_API_URL =
-  "http://localhost:5000/api/categories";
+  "https://purchase-online.onrender.com/api/categories";
 
 const HERO_SLIDE_API_URL =
-  "http://localhost:5000/api/hero-slides";
+  "https://purchase-online.onrender.com/api/hero-slides";
 
 function Categories({
   initialCategories = [],

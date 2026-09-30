@@ -119,7 +119,7 @@ function Checkout() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/orders",
+        "https://purchase-online.onrender.com/api/orders",
         {
           method: "POST",
           headers: {

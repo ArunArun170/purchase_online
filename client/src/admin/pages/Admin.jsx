@@ -34,14 +34,14 @@ function Admin() {
           accountsResponse,
           adsResponse,
         ] = await Promise.all([
-          fetch("http://localhost:5000/api/products"),
-          fetch("http://localhost:5000/api/categories"),
-          fetch("http://localhost:5000/api/hero-slides"),
-          fetch("http://localhost:5000/api/orders", { headers: { Authorization: `Bearer ${localStorage.getItem("anon_token") || ""}` } }),
-          fetch("http://localhost:5000/api/auth/accounts", {
+          fetch("https://purchase-online.onrender.com/api/products"),
+          fetch("https://purchase-online.onrender.com/api/categories"),
+          fetch("https://purchase-online.onrender.com/api/hero-slides"),
+          fetch("https://purchase-online.onrender.com/api/orders", { headers: { Authorization: `Bearer ${localStorage.getItem("anon_token") || ""}` } }),
+          fetch("https://purchase-online.onrender.com/api/auth/accounts", {
             headers: { Authorization: `Bearer ${localStorage.getItem("anon_token") || ""}` },
           }),
-          fetch("http://localhost:5000/api/ads"),
+          fetch("https://purchase-online.onrender.com/api/ads"),
         ]);
 
         const productsData = await productsResponse.json();

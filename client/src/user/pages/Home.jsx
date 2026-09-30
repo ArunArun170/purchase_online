@@ -24,8 +24,8 @@ function Home() {
       try {
         // Load categories and hero slides from MongoDB APIs
         const [categoriesResponse, heroResponse] = await Promise.all([
-          fetch("http://localhost:5000/api/categories"),
-          fetch("http://localhost:5000/api/hero-slides"),
+          fetch("https://purchase-online.onrender.com/api/categories"),
+          fetch("https://purchase-online.onrender.com/api/hero-slides"),
         ]);
 
         if (!categoriesResponse.ok || !heroResponse.ok) {
@@ -42,7 +42,7 @@ function Home() {
         // LOAD PRODUCTS FROM BACKEND
         // =========================
         const productsResponse = await fetch(
-          "http://localhost:5000/api/products"
+          "https://purchase-online.onrender.com/api/products"
         );
 
         if (!productsResponse.ok) {
@@ -64,7 +64,7 @@ function Home() {
         // LOAD ADS FROM MONGODB API
         // =========================
         const adsResponse = await fetch(
-          "http://localhost:5000/api/ads"
+          "https://purchase-online.onrender.com/api/ads"
         );
 
         if (!adsResponse.ok) {

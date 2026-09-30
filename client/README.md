@@ -9,7 +9,7 @@ npm install
 npm run dev
 ```
 
-The frontend currently calls the backend at `http://localhost:5000`.
+The frontend currently calls the backend at `https://purchase-online.onrender.com`.
 Start the server before testing login, checkout, admin pages, or MongoDB-backed content.
 
 ## Authentication

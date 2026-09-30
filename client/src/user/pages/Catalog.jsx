@@ -22,7 +22,7 @@ function Catalog() {
       try {
         // Load categories from MongoDB API
         const categoriesResponse = await fetch(
-          "http://localhost:5000/api/categories"
+          "https://purchase-online.onrender.com/api/categories"
         );
 
         if (!categoriesResponse.ok) {
@@ -56,7 +56,7 @@ function Catalog() {
         // =========================
         const productsResponse =
           await fetch(
-            "http://localhost:5000/api/products"
+            "https://purchase-online.onrender.com/api/products"
           );
 
         if (!productsResponse.ok) {

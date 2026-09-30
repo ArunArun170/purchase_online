@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 
 const PRODUCTS_PER_PAGE = 30;
-const API_URL = "http://localhost:5000/api/products";
+const API_URL = "https://purchase-online.onrender.com/api/products";
 
 const TAG_OPTIONS = [
   "New Arrivals",

@@ -1,0 +1,41 @@
+{
+    "testimonial": {
+        "image": "https:\/\/images.unsplash.com\/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80",
+        "name": "ALAN DOE",
+        "role": "CEO & Founder",
+        "quote": "Anon is my go-to place for premium shopping. The quality and delivery speed are unmatched!"
+    },
+    "mid_image": {
+        "image": "https:\/\/images.unsplash.com\/photo-1469334031218-e382a71b716b?auto=format&fit=crop&q=80&w=800",
+        "badge": "25% DISCOUNT",
+        "title": "Summer Collection",
+        "subtitle": "Starting @ $10",
+        "link": "womens-fashion"
+    },
+    "ad_images": [
+        {
+            "image": "https:\/\/images.unsplash.com\/photo-1483985988355-763728e1935b?auto=format&fit=crop&q=80&w=400",
+            "category": "Fashion",
+            "title": "Trending Styles in 2026",
+            "link": "mens-fashion"
+        },
+        {
+            "image": "https:\/\/images.unsplash.com\/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&q=80&w=400",
+            "category": "Clothes",
+            "title": "Exclusive Summer Outfits",
+            "link": "womens-fashion"
+        },
+        {
+            "image": "https:\/\/images.unsplash.com\/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&q=80&w=400",
+            "category": "Shoes",
+            "title": "Premium Footwear Deals",
+            "link": "jewelry"
+        },
+        {
+            "image": "https:\/\/images.unsplash.com\/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&q=80&w=400",
+            "category": "Electronics",
+            "title": "Top Tech Gadgets Available",
+            "link": "electronics"
+        }
+    ]
+}

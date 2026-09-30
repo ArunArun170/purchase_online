@@ -1,0 +1,378 @@
+{
+    "categories": [
+        {
+            "id": "mens-fashion",
+            "name": "Men's",
+            "icon": "shirt-outline",
+            "image": "https:\/\/images.unsplash.com\/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=150&q=80",
+            "show_in_scrollbar": true,
+            "show_in_sidebar": true,
+            "subcategories": [
+                {
+                    "name": "Shirt",
+                    "show_in_scrollbar": false,
+                    "show_in_sidebar": true
+                },
+                {
+                    "name": "Shorts",
+                    "show_in_scrollbar": false,
+                    "show_in_sidebar": true
+                },
+                {
+                    "name": "Sports",
+                    "show_in_scrollbar": false,
+                    "show_in_sidebar": true
+                }
+            ]
+        },
+        {
+            "id": "womens-fashion",
+            "name": "Women's",
+            "icon": "sparkles-outline",
+            "image": "https:\/\/images.unsplash.com\/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80",
+            "show_in_scrollbar": true,
+            "show_in_sidebar": true,
+            "subcategories": [
+                {
+                    "name": "Dress & Frock",
+                    "show_in_scrollbar": false,
+                    "show_in_sidebar": true
+                },
+                {
+                    "name": "Earrings",
+                    "show_in_scrollbar": true,
+                    "show_in_sidebar": true
+                },
+                {
+                    "name": "Necklace",
+                    "show_in_scrollbar": false,
+                    "show_in_sidebar": true
+                },
+                {
+                    "name": "Makeup Kit",
+                    "show_in_scrollbar": false,
+                    "show_in_sidebar": true
+                }
+            ]
+        },
+        {
+            "id": "shoe-items",
+            "name": "Shoe Items",
+            "icon": "shirt-outline",
+            "image": "https:\/\/ecommercepurchasingonline.great-site.net\/assets\/products\/shoe-1.jpg",
+            "show_in_scrollbar": true,
+            "show_in_sidebar": false,
+            "subcategories": []
+        },
+        {
+            "id": "winter-shirts",
+            "name": "Winter Shirts",
+            "icon": "shirt-outline",
+            "image": "https:\/\/ecommercepurchasingonline.great-site.net\/assets\/products\/jacket-5.jpg",
+            "show_in_scrollbar": true,
+            "show_in_sidebar": false,
+            "subcategories": []
+        }
+    ],
+    "hero_slides": [
+        {
+            "image": "https:\/\/images.unsplash.com\/photo-1483985988355-763728e1935b?auto=format&fit=crop&q=80&w=1200",
+            "subtitle": "Trending Item",
+            "title": "Women's latest fashion sale",
+            "price": "20.00"
+        }
+    ],
+    "products": [
+        {
+            "id": "p1",
+            "name": "Relaxed Short full Sleeve T-Shirt",
+            "category": "womens-fashion",
+            "subcategory": "Dress & Frock",
+            "price": 45,
+            "oldPrice": 55,
+            "rating": 4,
+            "reviewCount": 42,
+            "badge": "15%",
+            "image": "https:\/\/ecommercepurchasingonline.great-site.net\/assets\/products\/2.jpg",
+            "hoverImage": "https:\/\/images.unsplash.com\/photo-1554412933-514a83d2f3c8?auto=format&fit=crop&q=80&w=400",
+            "tags": [
+                "new-arrivals",
+                "best-sellers",
+                "new-products"
+            ],
+            "stock": 120,
+            "sold": 20,
+            "available": 40,
+            "colors": [
+                {
+                    "name": "Black",
+                    "hex": "#1a1a1a"
+                },
+                {
+                    "name": "White",
+                    "hex": "#f5f5f5"
+                },
+                {
+                    "name": "Pink",
+                    "hex": "#ff6b81"
+                }
+            ],
+            "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "description": "Effortlessly chic and breathable, our relaxed short sleeve tee is designed for the modern look.",
+            "features": [
+                "100% Organic Cotton",
+                "Relaxed fit design",
+                "Breathable fabric"
+            ]
+        },
+        {
+            "id": "p1781199790",
+            "name": "Relaxed Short full Sleeve T-Shirt",
+            "category": "dfdfsfds",
+            "subcategory": "fasdddddddddddddddddd",
+            "price": 12,
+            "oldPrice": 23,
+            "badge": "15%",
+            "image": "https:\/\/images.unsplash.com\/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&q=80&w=400",
+            "description": "Relaxed Short full Sleeve T-Shirt",
+            "tags": [
+                "new-arrivals",
+                "new-products"
+            ],
+            "stock": 100,
+            "sold": 0,
+            "available": 100
+        },
+        {
+            "id": "p1781202468",
+            "name": "Shirt",
+            "category": "mens-fashion",
+            "subcategory": "Shirt",
+            "price": 500,
+            "oldPrice": null,
+            "badge": "15%",
+            "image": "https:\/\/ecommercepurchasingonline.great-site.net\/assets\/products\/shirt-1.jpg",
+            "description": "Upgrade your everyday style with this premium cotton casual shirt. Designed for comfort and versatility, it features a soft breathable fabric, modern fit, and durable stitching. Perfect for office wear, casual outings, and special occasions.",
+            "tags": [
+                "new-arrivals"
+            ],
+            "stock": 100,
+            "sold": 0,
+            "available": 100
+        },
+        {
+            "id": "p1781202777",
+            "name": "Shirt",
+            "category": "mens-fashion",
+            "subcategory": "Shirt",
+            "price": 200,
+            "oldPrice": 280,
+            "badge": "",
+            "image": "https:\/\/ecommercepurchasingonline.great-site.net\/assets\/products\/shirt-2.jpg",
+            "description": "Crafted from high-quality cotton fabric, this shirt combines timeless elegance with all-day comfort. The tailored fit and refined finish make it ideal for both formal and casual occasions.",
+            "tags": [
+                "trending",
+                "deal-of-the-day"
+            ],
+            "stock": 100,
+            "sold": 0,
+            "available": 100
+        },
+        {
+            "id": "p1781202941",
+            "name": "Mens Winter Leather Jacket",
+            "category": "mens-fashion",
+            "subcategory": "Shirt",
+            "price": 500,
+            "oldPrice": null,
+            "badge": "",
+            "image": "https:\/\/ecommercepurchasingonline.great-site.net\/assets\/products\/jacket-1.jpg",
+            "description": "Mens Winter Leather Jacket",
+            "tags": [
+                "top-rated"
+            ],
+            "stock": 100,
+            "sold": 0,
+            "available": 100
+        },
+        {
+            "id": "p1781203015",
+            "name": "Mens Winter Leather Jacket",
+            "category": "mens-fashion",
+            "subcategory": "Shirt",
+            "price": 500,
+            "oldPrice": null,
+            "badge": "",
+            "image": "https:\/\/ecommercepurchasingonline.great-site.net\/assets\/products\/jacket-2.jpg",
+            "description": "Mens Winter Leather Jacket",
+            "tags": [
+                "deal-of-the-day"
+            ],
+            "stock": 100,
+            "sold": 0,
+            "available": 100
+        },
+        {
+            "id": "p1781203070",
+            "name": "Mens Winter Leather Jacket",
+            "category": "mens-fashion",
+            "subcategory": "Shirt",
+            "price": 400,
+            "oldPrice": null,
+            "badge": "",
+            "image": "https:\/\/ecommercepurchasingonline.great-site.net\/assets\/products\/jacket-3.jpg",
+            "description": "Mens Winter Leather Jacket",
+            "tags": [
+                "new-products"
+            ],
+            "stock": 100,
+            "sold": 0,
+            "available": 100
+        },
+        {
+            "id": "p1781203155",
+            "name": "Mens Winter Leather Jacket",
+            "category": "mens-fashion",
+            "subcategory": "Shirt",
+            "price": 500,
+            "oldPrice": 699,
+            "badge": "",
+            "image": "https:\/\/ecommercepurchasingonline.great-site.net\/assets\/products\/jacket-4.jpg",
+            "description": "Mens Winter Leather Jacket",
+            "tags": [
+                "new-products"
+            ],
+            "stock": 100,
+            "sold": 0,
+            "available": 100
+        },
+        {
+            "id": "p1781203191",
+            "name": "Mens Winter Leather Jacket",
+            "category": "mens-fashion",
+            "subcategory": "Shirt",
+            "price": 500,
+            "oldPrice": null,
+            "badge": "",
+            "image": "https:\/\/ecommercepurchasingonline.great-site.net\/assets\/products\/jacket-5.jpg",
+            "description": "Mens Winter Leather Jacket",
+            "tags": [
+                "new-products"
+            ],
+            "stock": 100,
+            "sold": 0,
+            "available": 100
+        },
+        {
+            "id": "p1781203221",
+            "name": "Mens Winter Leather Jacket",
+            "category": "mens-fashion",
+            "subcategory": "Shirt",
+            "price": 500,
+            "oldPrice": null,
+            "badge": "",
+            "image": "https:\/\/ecommercepurchasingonline.great-site.net\/assets\/products\/jacket-6.jpg",
+            "description": "Mens Winter Leather Jacket",
+            "tags": [],
+            "stock": 100,
+            "sold": 0,
+            "available": 100
+        },
+        {
+            "id": "p1781203702",
+            "name": "Shorts",
+            "category": "mens-fashion",
+            "subcategory": "Shorts",
+            "price": 200,
+            "oldPrice": null,
+            "badge": "",
+            "image": "https:\/\/ecommercepurchasingonline.great-site.net\/assets\/products\/shorts-1.jpg",
+            "description": "Men Shorts",
+            "tags": [
+                "new-arrivals",
+                "new-products"
+            ],
+            "stock": 100,
+            "sold": 0,
+            "available": 100
+        },
+        {
+            "id": "p1781204066",
+            "name": "Running and Trekking Shoe",
+            "category": "mens-fashion",
+            "subcategory": "Sports",
+            "price": 699,
+            "oldPrice": null,
+            "badge": "",
+            "image": "https:\/\/ecommercepurchasingonline.great-site.net\/assets\/products\/sports-1.jpg",
+            "description": "Running and Trekking Shoe",
+            "tags": [
+                "trending",
+                "new-products"
+            ],
+            "stock": 100,
+            "sold": 0,
+            "available": 100
+        },
+        {
+            "id": "p1781204121",
+            "name": "Running and Trekking Shoe",
+            "category": "mens-fashion",
+            "subcategory": "Sports",
+            "price": 699,
+            "oldPrice": null,
+            "badge": "15%",
+            "image": "https:\/\/ecommercepurchasingonline.great-site.net\/assets\/products\/sports-1.jpg",
+            "description": "Running and Trekking Shoe",
+            "tags": [
+                "top-rated",
+                "new-products"
+            ],
+            "stock": 100,
+            "sold": 0,
+            "available": 100
+        },
+        {
+            "id": "p1781204252",
+            "name": "Running and Trekking Shoe",
+            "category": "mens-fashion",
+            "subcategory": "Sports",
+            "price": 699,
+            "oldPrice": null,
+            "badge": "15%",
+            "image": "https:\/\/ecommercepurchasingonline.great-site.net\/assets\/products\/sports-4.jpg",
+            "description": "Running and Trekking Shoe",
+            "tags": [
+                "top-rated",
+                "new-products"
+            ],
+            "stock": 100,
+            "sold": 0,
+            "available": 100
+        },
+        {
+            "id": "p1781204451",
+            "name": "Office Shoe",
+            "category": "mens-fashion",
+            "subcategory": "Sports",
+            "price": 699,
+            "oldPrice": null,
+            "badge": "15%",
+            "image": "https:\/\/ecommercepurchasingonline.great-site.net\/assets\/products\/shoe-1.jpg",
+            "description": "Office Shoe",
+            "tags": [
+                "trending",
+                "new-products"
+            ],
+            "stock": 100,
+            "sold": 0,
+            "available": 100
+        }
+    ]
+}

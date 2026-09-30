@@ -1,0 +1,30 @@
+[
+    {
+        "id": "USR-7416",
+        "name": "Arun",
+        "phone": "6374708386",
+        "email": "admin@gmail.com",
+        "password": "admin123"
+    },
+    {
+        "id": "USR-5191",
+        "name": "Arun",
+        "phone": "6567890987",
+        "email": "arun40028041@gmail.com",
+        "password": "12345"
+    },
+    {
+        "id": "USR-3425",
+        "name": "Arun",
+        "phone": "6374708386",
+        "email": "22ul71@anjaconline.org",
+        "password": "R_arun@2004"
+    },
+    {
+        "id": "USR-3822",
+        "name": "Arun",
+        "phone": "6374708386",
+        "email": "arun4002@gmail.com",
+        "password": "12345"
+    }
+]

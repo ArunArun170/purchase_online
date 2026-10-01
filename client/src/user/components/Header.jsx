@@ -126,7 +126,7 @@ function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-[#e8e2df] bg-white">
-      <div className="mx-auto flex h-[68px] max-w-[1440px] items-center gap-3 px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto flex h-[68px] max-w-[1440px] items-center justify-between gap-3 px-4 sm:px-6 lg:px-8">
         {/* Logo */}
         <Link
           to="/"
@@ -194,7 +194,7 @@ function Header() {
           )}
         </Link>
 
-        {/* Desktop Navigation */}
+       {/* 
         <nav className="hidden lg:flex items-center gap-5 pl-2">
           <Link
             to="/"
@@ -217,7 +217,7 @@ function Header() {
           >
             Shop
           </Link>
-        </nav>
+        </nav> */}
       </div>
 
       {/* Mobile Search */}
